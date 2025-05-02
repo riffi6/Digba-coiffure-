@@ -1,0 +1,16 @@
+<h3>Réserver une séance</h3>
+<form action="https://formspree.io/f/your_form_id" method="POST">
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="date">Date souhaitée :</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+    <button type="submit">Envoyer</button>
+</form>
